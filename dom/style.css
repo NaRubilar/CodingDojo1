@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.buttons button {
+    background-color: #8e24aa;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.feed {
+    margin-left: 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    margin-right: 40px;
+    flex: 1;
+    background-color: #a5d6a7;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    height: 230px; 
+    align-items: center;
+}
+
+.definitions {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.definition {
+    background-color: #a5d6a7;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.definition h2 {
+    margin-top: 0;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.definition button {
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
